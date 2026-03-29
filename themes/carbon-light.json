@@ -105,7 +105,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#A67DB8"
+        "foreground": "#171717"
       }
     },
     {
@@ -119,7 +119,7 @@
         "constant.numeric.decimal"
       ],
       "settings": {
-        "foreground": "#F2C4B3"
+        "foreground": "#C97B61"
       }
     },
     {
@@ -131,7 +131,7 @@
         "constant.language.none"
       ],
       "settings": {
-        "foreground": "#F2C4B3"
+        "foreground": "#C97B61"
       }
     },
     {
@@ -155,7 +155,7 @@
         "entity.name.module"
       ],
       "settings": {
-        "foreground": "#5D6875"
+        "foreground": "#2C3846"
       }
     },
     {
@@ -165,7 +165,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#A67DB8"
+        "foreground": "#171717"
       }
     },
     {
@@ -382,7 +382,7 @@
         "string source"
       ],
       "settings": {
-        "foreground": "#5D6875"
+        "foreground": "#2C3846"
       }
     },
     {
@@ -459,7 +459,7 @@
         "markup.list"
       ],
       "settings": {
-        "foreground": "#A67DB8"
+        "foreground": "#171717"
       }
     },
     {
@@ -560,7 +560,7 @@
         "meta.diff.range"
       ],
       "settings": {
-        "foreground": "#A67DB8",
+        "foreground": "#171717",
         "fontStyle": "bold"
       }
     },
@@ -603,7 +603,7 @@
         "brackethighlighter.quote"
       ],
       "settings": {
-        "foreground": "#A67DB8"
+        "foreground": "#171717"
       }
     },
     {
@@ -667,7 +667,7 @@
       }
     },
     {
-      "name": "Type annotation — Anotaciones de tipo (#A67DB8)",
+      "name": "Type annotation — Anotaciones de tipo (#171717)",
       "scope": [
         "entity.name.type",
         "support.type",

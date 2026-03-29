@@ -23,5 +23,6 @@
         "path": "./themes/carbon-light.json"
       }
     ]
-  }
+  },
+  "icon": "carbon_theme_icon.png"
 }
