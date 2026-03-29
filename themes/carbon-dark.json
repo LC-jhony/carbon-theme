@@ -3,18 +3,15 @@
   "name": "Carbon dark",
   "type": "dark",
 "colors": {
-    // base color
     "focusBorder": "#171717",
     "foreground": "#e0e0e0",
     "editor.background": "#171717",
     "editor.foreground": "#e0e0e0",
     "scrollbar.shadow": "#000000",
-    // activity bar
     "activityBar.border": "#171717",
     "activityBar.background": "#171717",
     "activityBar.foreground": "#e0e0e0",
     "activityBarBadge.background": "#e74c3c",
-    // status bar
     "statusBar.border": "#171717",
     "statusBar.background": "#1e1e1e",
     "statusBar.foreground": "#e0e0e0",
@@ -22,7 +19,6 @@
     "statusBar.noFolderForeground": "#e0e0e0",
     "statusBar.debuggingBackground": "#1e1e1e",
     "statusBar.debuggingForeground": "#e0e0e0",
-    // editor groups and tabs
     "editorGroup.border": "#171717",
     "editorGroupHeader.tabsBackground": "#171717",
     "editorGroupHeader.noTabsBackground": "#171717",
@@ -31,12 +27,10 @@
     "tab.inactiveBackground": "#1e1e1e",
     "tab.border": "#171717",
     "tab.activeBorder": "#171717",
-    // side bars
     "sideBar.border": "#171717",
     "sideBar.background": "#171717",
     "sideBar.foreground": "#e0e0e0",
     "sideBarSectionHeader.background": "#1e1e1e",
-    // list
     "list.highlightForeground": "#e74c3c",
     "list.activeSelectionBackground": "#2d2d2d",
     "list.activeSelectionForeground": "#e74c3c",
@@ -46,13 +40,11 @@
     "list.hoverForeground": "#e74c3c",
     "list.focusBackground": "#2d2d2d",
     "list.focusForeground": "#e74c3c",
-    // editor
     "editor.lineHighlightBackground": "#2a2a2a",
     "editor.lineHighlightBorder": "#171717",
     "editorLineNumber.foreground": "#555555",
     "editorLineNumber.activeForeground": "#e0e0e0",
     "editor.selectionBackground": "#3d5a80",
-    // input
     "input.border": "#3d3d3d",
     "input.background": "#1e1e1e",
     "inputOption.activeBorder": "#e0e0e0",
@@ -60,27 +52,22 @@
     "dropdown.border": "#3d3d3d",
     "dropdown.background": "#1e1e1e",
     "dropdown.listBackground": "#1e1e1e",
-    // notification
     "notificationCenter.border": "#2d2d2d",
     "notificationCenterHeader.background": "#1e1e1e",
     "notificationToast.border": "#2d2d2d",
     "notifications.background": "#1e1e1e",
     "notifications.border": "#2d2d2d",
-    // button
     "button.background": "#e74c3c",
     "button.foreground": "#ffffff",
-    // titlebar
     "titleBar.border": "#171717",
     "titleBar.activeBackground": "#171717",
     "titleBar.activeForeground": "#e0e0e0",
     "titleBar.inactiveBackground": "#171717",
     "titleBar.inactiveForeground": "#888888",
-    // editor widget
     "editorWidget.background": "#1e1e1e",
     "editorWidget.border": "#171717",
     "editorSuggestWidget.highlightForeground": "#e74c3c",
     "editorSuggestWidget.selectedBackground": "#2d2d2d",
-    // panel
     "panel.border": "#171717"
    },
   "tokenColors": [
@@ -233,7 +220,6 @@
         "foreground": "#3D3D3D"
       }
     },
-    // "" comillas
     {
       "name": "String — Cadenas de texto (#A31515)",
       "scope": [
@@ -262,7 +248,6 @@
         "foreground": "#73A7A7"
       }
     },
-    //use Livewire\Component;
     {
       "name": "Support — Funciones y tipos built-in (#0F9090)",
       "scope": [
@@ -317,7 +302,6 @@
         "foreground": "#B87EA2"
       }
     },
-    // this
     {
       "name": "PHP $this / self / language vars — Variables especiales PHP (#7B3F00)",
       "scope": [
@@ -652,7 +636,6 @@
         "fontStyle": "underline"
       }
     },
-    //use Livewire\Component;
     {
       "name": "Punctuation — Signos de puntuación (#3D3D3D)",
       "scope": [
@@ -708,7 +691,6 @@
         "foreground": "#C85C7A"
       }
     },
-    //php
     {
       "name": "PHP Open/Close Tags (Blade Embedded) — Tags PHP/Blade (#0F9090)",
       "scope": [

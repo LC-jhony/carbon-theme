@@ -3,18 +3,14 @@
   "name": "Carbon Light",
   "type": "light",
   "colors": {
-   // base color
    "focusBorder": "#ffffff00",
    "foreground": "#000000",
    "editor.background": "#FFFFFF",
-  //| "editor.foreground": "#000000",
    "scrollbar.shadow": "#ffffff",
-   // activity bar
    "activityBar.border": "#ffffff",
    "activityBar.background": "#ffffff",
    "activityBar.foreground": "#000000",
    "activityBarBadge.background": "#d73a49",
-   // status bar
    "statusBar.border": "#ffffff",
    "statusBar.background": "#ffffff",
    "statusBar.foreground": "#000000",
@@ -22,7 +18,6 @@
    "statusBar.noFolderForeground": "#000000",
    "statusBar.debuggingBackground": "#ffffff",
    "statusBar.debuggingForeground": "#000000",
-   // editor groups and tabs
    "editorGroup.border": "#ffffff",
    "editorGroupHeader.tabsBackground": "#ffffff",
    "editorGroupHeader.noTabsBackground": "#ffffff",
@@ -31,12 +26,10 @@
    "tab.inactiveBackground": "#ffffff",
    "tab.border": "#ffffff",
    "tab.activeBorder": "#d73a49",
-   // side bars
    "sideBar.border": "#ffffff",
    "sideBar.background": "#ffffff",
    "sideBar.foreground": "#000000",
    "sideBarSectionHeader.background": "#ffffff",
-   // list
    "list.highlightForeground": "#d73a49",
    "list.activeSelectionBackground": "#eeeeee",
    "list.activeSelectionForeground": "#d73a49",
@@ -46,13 +39,11 @@
    "list.hoverForeground": "#d73a49",
    "list.focusBackground": "#eeeeee",
    "list.focusForeground": "#d73a49",
-   // editor
    "editor.lineHighlightBackground": "#fffbdf",
    "editor.lineHighlightBorder": "#fffbdf",
    "editorLineNumber.foreground": "#babbbc",
    "editorLineNumber.activeForeground": "#000000",
    "editor.selectionBackground": "#fed442",
-   // input
    "input.border": "#b2b2b2",
    "input.background": "#ffffff",
    "inputOption.activeBorder": "#000000",
@@ -60,27 +51,22 @@
    "dropdown.border": "#b2b2b2",
    "dropdown.background": "#ffffff",
    "dropdown.listBackground": "#ffffff",
-   // notification
    "notificationCenter.border": "#ffffff",
    "notificationCenterHeader.background": "#ffffff",
    "notificationToast.border": "#ffffff",
    "notifications.background": "#ffffff",
    "notifications.border": "#ffffff",
-   // button
    "button.background": "#d73a49",
    "button.foreground": "#ffffff",
-   // titlebar
    "titleBar.border": "#ffffff",
    "titleBar.activeBackground": "#ffffff",
    "titleBar.activeForeground": "#000000",
    "titleBar.inactiveBackground": "#ffffff",
    "titleBar.inactiveForeground": "#000000",
-   // editor widget
    "editorWidget.background": "#ffffff",
    "editorWidget.border": "#000000",
    "editorSuggestWidget.highlightForeground": "#d73a49",
    "editorSuggestWidget.selectedBackground": "#f0f0f0",
-   // panel
    "panel.border": "#ffffff"
   },
   "tokenColors": [
@@ -186,7 +172,6 @@
         "foreground": "#16a34a"
       }
     },
-    //use
     {
       "name": "Keyword — Palabras clave (if, else, return, etc) (#AF00FF)",
       "scope": [
@@ -234,11 +219,9 @@
         "foreground": "#3D3D3D"
       }
     },
-    // "" comillas
     {
       "name": "String — Cadenas de texto (#A31515)",
       "scope": [
-        //"string",
         "punctuation.definition.string",
         "string punctuation.section.embedded source"
       ],
@@ -263,7 +246,6 @@
         "foreground": "#73A7A7"
       }
     },
-    //use Livewire\Component;
     {
       "name": "Support — Funciones y tipos built-in (#0F9090)",
       "scope": [
@@ -318,7 +300,6 @@
         "foreground": "#16a34a"
       }
     },
-    // this
     {
       "name": "PHP $this / self / language vars — Variables especiales PHP (#7B3F00)",
       "scope": [
@@ -653,7 +634,6 @@
         "fontStyle": "underline"
       }
     },
-    //use Livewire\Component;
     {
       "name": "Punctuation — Signos de puntuación (#3D3D3D)",
       "scope": [
@@ -709,7 +689,6 @@
         "foreground": "#ec003f"
       }
     },
-    //php
     {
       "name": "PHP Open/Close Tags (Blade Embedded) — Tags PHP/Blade (#0F9090)",
       "scope": [
