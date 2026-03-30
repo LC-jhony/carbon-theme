@@ -10,13 +10,11 @@ A faithful port of [michaeldyrynda/carbon.vim](https://github.com/michaeldyrynda
 
 ### Carbon Dark
 
-![Carbon Dark - JavaScript](screenshots/carbon-dark-js.png)
-![Carbon Dark - Python](screenshots/carbon-dark-python.png)
+![Carbon Dark](screenshot/theme-dark.png)
 
 ### Carbon Light
 
-![Carbon Light - JavaScript](screenshots/carbon-light-js.png)
-![Carbon Light - Python](screenshots/carbon-light-python.png)
+![Carbon Light](screenshot/theme-light.png)
 
 ## Color Palette
 
