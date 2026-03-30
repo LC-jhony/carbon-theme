@@ -64,7 +64,7 @@
    "titleBar.inactiveBackground": "#ffffff",
    "titleBar.inactiveForeground": "#000000",
    "editorWidget.background": "#ffffff",
-   "editorWidget.border": "#000000",
+   "editorWidget.border": "#ffffff",
    "editorSuggestWidget.highlightForeground": "#d73a49",
    "editorSuggestWidget.selectedBackground": "#f0f0f0",
    "panel.border": "#ffffff"
@@ -266,7 +266,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#6B7280"
+        "foreground": "#16a34a"
       }
     },
     {
@@ -285,7 +285,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#B87EA2"
+        "foreground": "#ec003f"
       }
     },
     {

@@ -24,5 +24,6 @@
       }
     ]
   },
-  "icon": "carbon_theme_icon.png"
+  "icon": "carbon_theme_icon.png",
+  "license": "LICENSE.txt"
 }

@@ -195,7 +195,7 @@
         "keyword.operator.arrow"
       ],
       "settings": {
-        "foreground": "#C85C7A"
+        "foreground": "#9A3B56"
       }
     },
     {
@@ -206,7 +206,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#C85C7A"
+        "foreground": "#9A3B56"
       }
     },
     {
@@ -496,14 +496,14 @@
       }
     },
     {
-      "name": "Markup deleted — Líneas eliminadas en diffs (#C85C7A)",
+      "name": "Markup deleted — Líneas eliminadas en diffs (#9A3B56)",
       "scope": [
         "markup.deleted",
         "meta.diff.header.from-file",
         "punctuation.definition.deleted"
       ],
       "settings": {
-        "foreground": "#C85C7A"
+        "foreground": "#9A3B56"
       }
     },
     {
@@ -660,14 +660,14 @@
       }
     },
     {
-      "name": "Decorator / annotation — Decoradores (#C85C7A)",
+      "name": "Decorator / annotation — Decoradores (#9A3B56)",
       "scope": [
         "meta.decorator",
         "punctuation.decorator",
         "entity.name.function.decorator"
       ],
       "settings": {
-        "foreground": "#C85C7A"
+        "foreground": "#9A3B56"
       }
     },
     {
@@ -688,7 +688,7 @@
         "punctuation.separator.key-value"
       ],
       "settings": {
-        "foreground": "#C85C7A"
+        "foreground": "#9A3B56"
       }
     },
     {
