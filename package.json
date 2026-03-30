@@ -1,9 +1,17 @@
 {
-  "name": "carbon-official-port",
+  "name": "carbon-theme",
   "displayName": "Carbon Theme (Lc Jhony)",
   "description": "A faithful port of michaeldyrynda/carbon.vim to VS Code.",
-  "version": "1.0.0",
-  "publisher": "Developer",
+  "version": "0.0.1",
+  "publisher": "CarbonTheme",
+  "author": {
+    "name": "LC-jhony",
+    "email": "jhonyapm94@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LC-jhony/carbon-theme.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
