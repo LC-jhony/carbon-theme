@@ -72,6 +72,59 @@ A faithful port of [michaeldyrynda/carbon.vim](https://github.com/michaeldyrynda
 - **Clean syntax highlighting** - Optimized for readability
 - **Consistent UI colors** - All VS Code UI elements themed
 
+## Recommended Settings
+
+Copy and paste this configuration into your `settings.json` file to achieve the full Carbon Theme experience:
+
+```json
+{
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 45,
+    "editor.fontLigatures": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.guides.indentation": false,
+    "editor.renderLineHighlight": "none",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "charmed-icons.hidesExplorerArrows": true,
+    "workbench.colorTheme": "Carbon Dark",
+    "workbench.statusBar.visible": false,
+    "window.title": "${rootName}",
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "charmed-light",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.browser.showInTitleBar": false,
+    "flow-icons.hidesExplorerFolders": true,
+    "flow-icons.hidesExplorerArrows": true
+}
+```
+
+### Recommended Icon Packs
+
+Enhance your coding experience with these carefully selected icon extensions:
+
+- [Charmed Icons](https://marketplace.visualstudio.com/items?itemName=MRk1dev.charmed-icons) - Elegant icon set for file explorers
+- [Flow Icons](https://marketplace.visualstudio.com/items?itemName=mohdmaazkhann.flow-icons) - Modern icons with smooth animations
+
 ## Repository
 
 [GitHub Repository](https://github.com/LC-jhony/carbon-theme)
