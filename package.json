@@ -3,6 +3,15 @@
   "displayName": "carbon-theme",
   "description": "theme carbon light and dark",
   "version": "0.0.1",
+  "publisher": "CarbonTheme",
+  "author": {
+    "name": "LC-jhony",
+    "email": "jhonyapm94@gmail.com"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/LC-jhony/carbon-theme.git"
+  },
   "engines": {
     "vscode": "^1.134.0"
   },
@@ -13,14 +22,16 @@
   "themes": [
     {
       "label": "Carbon Dark",
-      "uiTheme": "carbon-dark",
+      "uiTheme": "vs-dark",
       "path": "./themes/carbon-dark.json"
     },
     {
       "label": "Carbon Light",
-      "uiTheme": "light",
+      "uiTheme": "vs",
       "path": "./themes/carbon-light.json"
     }
   ]
-}
+},
+"icon": "./icons/carbon-icon-master.png",
+"license": "LICENSE.txt"
 }
