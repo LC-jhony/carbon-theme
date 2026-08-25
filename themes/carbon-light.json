@@ -39,12 +39,12 @@
     "editorWarning.foreground": "#D68910",
     "editorInfo.foreground": "#2980B9",
     "editorHint.foreground": "#1E8449",
-    "editorBracketHighlight.foreground1": "#C0392B",
-    "editorBracketHighlight.foreground2": "#1ABC9C",
-    "editorBracketHighlight.foreground3": "#8E44AD",
-    "editorBracketHighlight.foreground4": "#2980B9",
-    "editorBracketHighlight.foreground5": "#D68910",
-    "editorBracketHighlight.foreground6": "#E67E22",
+    "editorBracketHighlight.foreground1": "#A65D3D",
+    "editorBracketHighlight.foreground2": "#3D6EA6",
+    "editorBracketHighlight.foreground3": "#6B3DA6",
+    "editorBracketHighlight.foreground4": "#A68A3D",
+    "editorBracketHighlight.foreground5": "#6BA63D",
+    "editorBracketHighlight.foreground6": "#A63D6B",
     "editorBracketHighlight.unexpectedBracket.foreground": "#C0392B",
     "editorBracketMatch.background": "#3498DB18",
     "editorBracketMatch.border": "#3498DB66",
@@ -360,7 +360,7 @@
         "storage.type.function"
       ],
       "settings": {
-        "foreground": "#C0392B"
+        "foreground": "#D2451F"
       }
     },
     {
@@ -444,7 +444,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#FF4263"
+        "foreground": "#FF4262"
       }
     },
     {
@@ -486,8 +486,7 @@
       ],
       "settings": {
         "foreground": "#FFFFFF",
-        "background": "#C53030",
-        "fontStyle": "bold"
+        "background": "#C53030"
       }
     },
     {
@@ -631,7 +630,7 @@
         "entity.name.function.decorator"
       ],
       "settings": {
-        "foreground": "#D35400"
+        "foreground": "#A66A00"
       }
     },
     {
@@ -641,7 +640,7 @@
         "meta.preprocessor"
       ],
       "settings": {
-        "foreground": "#9B59B6"
+        "foreground": "#7D5BA6"
       }
     },
     {
@@ -736,7 +735,7 @@
         "meta.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#D35400"
+        "foreground": "#A66A00"
       }
     },
     {
