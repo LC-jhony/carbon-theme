@@ -78,6 +78,7 @@ Copy and paste this configuration into your `settings.json` file to achieve the 
 
 ```json
 {
+   {
     "window.zoomLevel": 1,
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 16,
@@ -99,12 +100,15 @@ Copy and paste this configuration into your `settings.json` file to achieve the 
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleReferences": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.lineNumbers": "off",
+    "git.decorations.enabled": false,
     "charmed-icons.hidesExplorerArrows": true,
-    "workbench.colorTheme": "Carbon Dark",
     "workbench.statusBar.visible": false,
     "window.title": "${rootName}",
     "breadcrumbs.enabled": false,
     "editor.renderControlCharacters": false,
+      "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.showTabs": "none",
     "workbench.iconTheme": "charmed-light",
     "workbench.sideBar.location": "right",
@@ -114,7 +118,10 @@ Copy and paste this configuration into your `settings.json` file to achieve the 
     "workbench.layoutControl.enabled": false,
     "workbench.browser.showInTitleBar": false,
     "flow-icons.hidesExplorerFolders": true,
-    "flow-icons.hidesExplorerArrows": true
+    "flow-icons.hidesExplorerArrows": true,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
 }
 ```
 
