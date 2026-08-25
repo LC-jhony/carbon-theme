@@ -1,0 +1,26 @@
+ {
+ "name": "carbon-theme",
+  "displayName": "carbon-theme",
+  "description": "theme carbon light and dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.134.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+"contributes": {
+  "themes": [
+    {
+      "label": "Carbon Dark",
+      "uiTheme": "carbon-dark",
+      "path": "./themes/carbon-dark.json"
+    },
+    {
+      "label": "Carbon Light",
+      "uiTheme": "light",
+      "path": "./themes/carbon-light.json"
+    }
+  ]
+}
+}
