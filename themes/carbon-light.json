@@ -749,5 +749,112 @@
         "fontStyle": "italic"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "variable.readonly": {
+      "foreground": "#9876AA"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "parameter": {
+      "foreground": "#C9CCCD",
+      "italic": true
+    },
+    "property.readonly": {
+      "foreground": "#9876AA"
+    },
+    "class": {
+      "foreground": "#73A7A7"
+    },
+    "interface": {
+      "foreground": "#73A7A7"
+    },
+    "enum": {
+      "foreground": "#73A7A7"
+    },
+    "enumMember": {
+      "foreground": "#9876AA"
+    },
+    "typeParameter": {
+      "foreground": "#73A7A7",
+      "italic": true
+    },
+    "namespace": {
+      "foreground": "#73A7A7"
+    },
+    "function": {
+      "foreground": "#DB6E89"
+    },
+    "method": {
+      "foreground": "#DB6E89"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "method.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "type": {
+      "foreground": "#73A7A7"
+    },
+    "type.defaultLibrary": {
+      "foreground": "#73A7A7"
+    },
+    "member": {
+      "foreground": "#9876AA"
+    },
+    "member.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "event": {
+      "foreground": "#B87EA2"
+    },
+    "event.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "macro": {
+      "foreground": "#FFAE8F"
+    },
+    "macro.defaultLibrary": {
+      "foreground": "#F9B5AC"
+    },
+    "decorator": {
+      "foreground": "#D9A566"
+    },
+    "annotation": {
+      "foreground": "#D9A566"
+    },
+    "deprecated": {
+      "foreground": "#5D6976",
+      "strikethrough": true
+    },
+    "string": {
+      "foreground": "#8FBC94"
+    },
+    "string.escape": {
+      "foreground": "#A5C25C"
+    },
+    "number": {
+      "foreground": "#F2C4B3"
+    },
+    "number.float": {
+      "foreground": "#F2C4B3"
+    },
+    "number.binary": {
+      "foreground": "#F2C4B3"
+    },
+    "number.octal": {
+      "foreground": "#F2C4B3"
+    },
+    "number.hex": {
+      "foreground": "#F2C4B3"
+    },
+    "property": {
+      "foreground": "#C9CCCD"
+    },
+    "variable": {
+      "foreground": "#C9CCCD"
+    }
+  }
 }
