@@ -1,0 +1,9 @@
+# Dependencias
+node_modules/
+
+# Artefactos de build (regenerables con npm run package)
+dist/
+*.vsix
+
+# Sistema
+.DS_Store

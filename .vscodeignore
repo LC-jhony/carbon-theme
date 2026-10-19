@@ -1,0 +1,9 @@
+.vscode/**
+.gitignore
+scripts/**
+node_modules/**
+dist/**
+*.vsix
+file-icons/out/**
+file-icons/icons/**
+**/.DS_Store
