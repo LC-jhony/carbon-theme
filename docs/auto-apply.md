@@ -100,7 +100,10 @@ vivir en un JSON estático, así que `extension.js` reescribe
   hacía Flow Icons: el root del workspace mantiene su icono.
 - Las contribuciones llevan `"_watch": true`, la opción interna con la que VS
   Code vigila el archivo del tema activo y lo recarga cuando cambia. Por eso el
-  efecto es inmediato, sin recargar la ventana.
+  efecto es inmediato, sin recargar la ventana. Ese recargado en caliente solo
+  alcanza al tema activo: si otra paleta ya estaba cargada en la misma sesión,
+  VS Code conserva su CSS en memoria y hay que recargar la ventana antes de
+  volver a elegirla.
 - Antes de escribir se compara con el contenido actual: si nada cambió no hay
   reescritura ni parpadeo, y con los ajustes en `false` el archivo vuelve a ser
   byte a byte el original.
