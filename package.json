@@ -1,0 +1,129 @@
+{
+	"name": "carbon-theme",
+	"displayName": "Carbon Theme",
+	"description": "Carbon and Min color themes bundled with matching Flow file icon themes and Carbon product icons.",
+	"version": "0.3.1",
+	"publisher": "carbon-local",
+	"icon": "icons/carbon-theme-icon-128.png",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"carbon",
+		"min",
+		"theme",
+		"color theme",
+		"file icons",
+		"product icons"
+	],
+	"main": "./extension.js",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"scripts": {
+		"sync:icons": "node scripts/sync-flow-icons.mjs",
+		"check:icons": "node scripts/sync-flow-icons.mjs --check",
+		"validate": "node scripts/validate.mjs",
+		"check": "npm run check:icons && npm run validate",
+		"package": "npm run check && mkdir -p dist && npx --yes @vscode/vsce package --allow-missing-repository --no-rewrite-relative-links --out dist/carbon-theme-$npm_package_version.vsix"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Carbon Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/carbon-dark.json"
+			},
+			{
+				"label": "Carbon Light",
+				"uiTheme": "vs",
+				"path": "./themes/carbon-light.json"
+			},
+			{
+				"label": "Min Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/min-dark.json"
+			},
+			{
+				"label": "Min Light",
+				"uiTheme": "vs",
+				"path": "./themes/min-light.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "carbon-icons-deep",
+				"label": "Carbon Icons Deep",
+				"path": "./file-icons/deep.json",
+				"_watch": true
+			},
+			{
+				"id": "carbon-icons-dawn",
+				"label": "Carbon Icons Dawn",
+				"path": "./file-icons/dawn.json",
+				"_watch": true
+			},
+			{
+				"id": "carbon-icons-dim",
+				"label": "Carbon Icons Dim",
+				"path": "./file-icons/dim.json",
+				"_watch": true
+			},
+			{
+				"id": "carbon-icons-you",
+				"label": "Carbon Icons You",
+				"path": "./file-icons/you.json",
+				"_watch": true
+			}
+		],
+		"productIconThemes": [
+			{
+				"id": "carbonSolid",
+				"label": "Carbon Solid",
+				"path": "./product-icon/Carbon-Product-Icons-Solid.json"
+			},
+			{
+				"id": "carbonOutline",
+				"label": "Carbon Outline",
+				"path": "./product-icon/Carbon-Product-Icons-Outline.json"
+			}
+		],
+		"configuration": {
+			"title": "Carbon Theme",
+			"properties": {
+				"carbonTheme.autoApplyIcons": {
+					"type": "boolean",
+					"default": true,
+					"scope": "window",
+					"markdownDescription": "Automatically select the matching file icon theme (Carbon Icons Deep for dark themes, Carbon Icons Dawn for light themes) when a Carbon or Min color theme is active. Icon themes chosen by the user are left untouched."
+				},
+				"carbonTheme.autoApplyProductIcons": {
+					"type": "boolean",
+					"default": true,
+					"scope": "window",
+					"markdownDescription": "Automatically select the matching product icon theme (Carbon Solid for dark themes, Carbon Outline for light themes) when a Carbon or Min color theme is active. Product icon themes chosen by the user are left untouched."
+				},
+				"carbonTheme.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"scope": "window",
+					"markdownDescription": "Hide the explorer's folder arrows in the Carbon Icons file icon themes. The active theme file is rewritten and reloaded automatically."
+				},
+				"carbonTheme.hidesExplorerFolders": {
+					"type": "boolean",
+					"default": false,
+					"scope": "window",
+					"markdownDescription": "Hide folder icons in the Carbon Icons file icon themes, including name-specific folder icons. The workspace root keeps its icon."
+				}
+			}
+		}
+	}
+}
